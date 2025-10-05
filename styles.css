@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Estilo del cuerpo del documento HTML */
+
+body {
+  min-height: 100vh;
+  background-color: #addefa;
+  display: grid;
+  place-items: center;
+}
+
+/* Estilos del contenedor de la calculadora */
+
+.calculadora {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  background-color: #f5f0f0;
+  color: rgb(43, 42, 42);
+  width: 390px;
+  max-width: 100%;
+  padding: 30px;
+  border-radius: 30px;
+  display: grid;
+  box-shadow: 4px 4px rgb(121, 120, 120);
+}
+
+/* Estilos de la pantalla */
+
+.pantalla {
+  grid-column: 1 / 5;
+  padding: 25px;
+  font-size: 35px;
+  text-align: right;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #bad0dd;
+}
+
+/* Estilos de los botones */
+
+.btn {
+  background-color: #bad0dd;
+  color: rgb(43, 42, 42);
+  border: 0;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #80ceff;
+}
+
+#c:hover {
+  background-color: rgb(255, 66, 66);
+}
+
+#igual {
+  grid-column: span 3;
+  background-color: #41af2a;
+}
+
+#igual:hover {
+  background-color: #259b0e;
+}
