@@ -1,5 +1,7 @@
 # Calculadora JavaScript
 
+Calculadora web simple y funcional desarrollada con JavaScript, HTML y CSS. Permite realizar operaciones básicas como suma, resta, multiplicación y división.
+
 
 ## Autores
 
@@ -9,14 +11,21 @@
 ## Características
 
 - Operaciones básicas: suma, resta, multiplicación y división.
-- Interfaz limpia y estructurada
-- Fácil de usar
+- Interfaz intuitiva y responsiva.
+- Soporte para operaciones aritméticas básicas.
+- Diseño limpio y moderno.
+
+## Uso 
+
+- Ingresa números usando los botones o el teclado.
+- Presiona "=" para obtener el resultado.
+- Usa "C" para limpiar la pantalla.
 
 ##  Tecnologías utilizadas
 
-- HTML5 - estructura semántica
+- HTML5
 - CSS3 - grid
-- JavaScript - funciones con condicionales
+- JavaScript 
 
 ## Instalación
 
